@@ -15,11 +15,11 @@ p {
 }
 #Dota {
     color: darkslategrey;
-    border: 2px solid darkseagreen;
+    border: 2px solid darkgrey;
 
 }
 div {
-    border: 3px solid blue;
+    border: 3px solid black;
 
 }
 table, th, td{
@@ -35,10 +35,11 @@ td {
 nav {
     float:left;
     width:500px;
-    border: 3px solid #7733aa;
+    border: 3px solid darkslategrey;
 }
 section {
     margin-left: 506px;
-    border:3px solid red;
+    border:3px solid black;
+
 
 }
