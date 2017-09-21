@@ -7,8 +7,7 @@ h2 {
     text-align: left;
 }
 p {
-    border: 1px solid powderblue;
-    padding: 30px;
+
 }
 .part1 {
     color:lightseagreen;
@@ -17,5 +16,29 @@ p {
 #Dota {
     color: darkslategrey;
     border: 2px solid darkseagreen;
+
+}
+div {
+    border: 3px solid blue;
+
+}
+table, th, td{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+th{
+    color: black;
+}
+td {
+    text-align: center;
+}
+nav {
+    float:left;
+    width:500px;
+    border: 3px solid #7733aa;
+}
+section {
+    margin-left: 506px;
+    border:3px solid red;
 
 }
