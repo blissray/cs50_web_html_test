@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+div#first{
+background-color : lightgrey;
+width: 300px;
+border:25px solid green;
+padding:25px;
+margin: 25px;
+}
+p.dotted{border-style : dotted;}
+p.solid{border-style : solid;}
+p.dashed{border-style : dashed;}
+p.double{border-style: double;}
+p.groove{border-style: ridge;}
+p.inset{border-style : inset;}
+p.outset{border-style : outset;}
+p.none{border-style: hidden;}
+p.mix{border-style: dotted dashed solid double;}
+<p>시계방향네방향으로 설정가능</p>
+<p>클라이언트 사이드와 서버사이드</p>
+<p>클라이언트의 역할 : 화면을 보여주는 역할 : 브라우저, 서버로부터 html japa,css받아옴
+다운받아서 보여줌 이 작업을 랜더링이라고함
+텍스트->웹페이지로 만드는것
+서버가 만들어줌. 서버내에서는 데이터베이스에서 데이터가져와서 요구가 있을 때 마다
+쏘아준다 : 이것이 동적인 것.
+html 구조, css : 꾸며주는 역할. 특정영역에만 먹이는 방법은 셀렉터
+</p>
+<p>박스모델 : 영역간의 경계를 만드는 것. 박스모델은 콘텐츠를 어떻게 다른콘텐츠와 구ㅜㄴ지을것인가
+</p>
+<p>보더 : 사각형 줄, 패딩: 사각형안에서 콘텐츠까지ㄱ의 거리, 마진 : 다른 글자박스간의 거리나 색
+</p>
+<p><h1>Content Overflow</h1></p>
+div.scroll{
+    background-color: #00FFF;
+    width: 100px;
+    height: 100px;
+overflow: scroll;
+}
+div.hidden{
+    background-color: #00FF00
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+<p><h1>Padding</h1></p>
+div{
+    border: 1px solid black;
+    background-color: lightblue;
+    padding: 50px 30px 50px 80px}
+<div>시계방향으로 크기 설정</div>
+
+<p><h1>Margin</h1></p>
+div#first{
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+div#second{
+background-color: yellow;
+width: 300px
+border: 25px solid green;
+padding: 50px;
+margin: 100px;
+border-radius : 100px;
+}
+<div id="first">첫번째 </div>
+<div id="second">세컨드, 래디우스는 박스를 동그랗게 하는 것.</div>
+</body>
+</html>
