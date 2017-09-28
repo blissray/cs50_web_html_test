@@ -1,0 +1,19 @@
+h1 {
+    text-align: left;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    color: aquamarine;
+}
+
+h3 {
+    text-align: right;
+    color: teal;
+}
+#alt{
+    color: lightpink;
+    text-align: center;
+    font-size: 100%;
+}
